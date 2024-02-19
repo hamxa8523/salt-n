@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo >img {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 100px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 400px;
+    padding-right: 100px;
+    overflow: hidden;
+/* border: 1px solid wheat; */
+width: 500px;
+  }
+  
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+   .btn >button{
+position: relative;
+left: 1000px;
+top: -50px;
+border-radius: 100px;
+width: 100px;
+height: 40px;
+} 
+#ab{
+    background-color: red;
+    color: white;
+    border: none;
+}
+#ab1{
+color: white;
+background-color: black;
+border-color:white;
+
+}
+section>.para-1>p{
+text-align: center;
+font-family: 'Apercu';
+font-style: normal;
+/* font-size: 400; */
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+margin-bottom: 8px;
+}
+.para-1>p>span{
+    font-weight: bolder;
+ font-size: larger;
+}
+section>.para-2>p{
+    text-align: center;
+    font-family: serif;
+    font-style: normal;
+  font-weight: lighter;   
+   color: #a8a8a8;
+    margin-bottom: 8px;
+}
+#sec-2{
+    display: flex;
+   margin-left: 200px;
+   /* padding-right: 50px; */
+}
+#container{
+    background-color: black;
+}
+section>.card1{
+height: 120px;
+width: 300px;
+border: 1px solid white;
+background-color: #FFFFFF;
+display: inline-block;
+vertical-align: top;
+padding: 16px;
+margin: 16px;
+border-radius: 10px;
+}
+section>.card1 :hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+section>.card1>button{
+background-color: black;
+color:white;
+border: none;
+text-align:center;
+cursor:pointer;
+outline:none;
+font-size:large;
+padding: 6px;
+border-radius: 10px;
+text-transform: capitalize;
+margin-left: 50px;
+margin-top: 10px;
+}
